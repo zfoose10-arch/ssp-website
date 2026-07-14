@@ -1,0 +1,249 @@
+/* Summit Spring Partners — site stylesheet.
+   Assembled from the Claude Design export: design-system tokens verbatim,
+   self-hosted font subsets, and the desktop/mobile layout value sets that
+   the export applied via a JS mode toggle, expressed here as a media query. */
+
+/* ---------------------------------------------------------------- fonts */
+/* Inter — variable, normal 300–700 */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/inter-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/inter-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* Inter — variable, italic 400–500 */
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url("../fonts/inter-italic-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url("../fonts/inter-italic-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* Source Serif 4 — variable, normal 400–700 */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-4-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-4-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* Source Serif 4 — variable, italic 400–600 */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("../fonts/source-serif-4-italic-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("../fonts/source-serif-4-italic-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* --------------------------------------------------------- color tokens */
+/* Six colors. No others. No tints, shades, derived ramps, or variants. */
+:root{
+  --bg-navy:#1B2C3E;   /* background — every page, everywhere. The base. */
+  --ink:#DEDEDC;       /* primary text — headlines and body */
+  --muted:#BCBCB9;     /* secondary text — captions, muted detail */
+  --structure:#5E6975; /* borders, dividers, rules. NEVER text (insufficient contrast) */
+  --warm-light:#CDC1B3;/* accent, light warm — closing italic line, link hover, active nav */
+  --warm-deep:#908472; /* accent, deep warm — eyebrow / small uppercase labels ONLY */
+
+  --bg:var(--bg-navy);
+  --text-primary:var(--ink);
+  --text-secondary:var(--muted);
+  --text-label:var(--warm-deep);
+  --border:var(--structure);
+  --rule:var(--structure);
+  --accent:var(--warm-light);
+  --link:var(--ink);
+  --link-hover:var(--warm-light);
+}
+
+/* ---------------------------------------------------- typography tokens */
+:root{
+  --font-serif:'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans:'Inter', system-ui, -apple-system, sans-serif;
+
+  --fs-lead:1.375rem;
+  --fs-body:1.125rem;
+  --fs-eyebrow:0.8125rem;
+
+  --lh-tight:1.08;
+  --lh-body:1.7;
+
+  --fw-regular:400;
+  --fw-medium:500;
+
+  --tracking-eyebrow:0.18em;
+  --tracking-tight:-0.02em;
+}
+
+/* ------------------------------------------------- layout value sets
+   The export drove layout through these variables, switched between a
+   desktop and a mobile set by a preview toggle. Both sets are preserved
+   verbatim; the switch is now a real media query. */
+:root{
+  --pt:2.75rem;           /* page top — hero clearance under the nav */
+  --sg:10rem;             /* gap between major sections */
+  --sgt:6rem;             /* tighter break within a section */
+  --h1s:3.15rem;
+  --h2s:2.1rem;
+  --lead:1.375rem;
+  --gh:2rem;              /* headline to body gap */
+  --body:1.125rem;
+  --num:2.25rem;          /* phase numbers on Approach */
+  --splitCols:200px 1fr;  /* label column + prose column */
+  --splitGap:clamp(2rem,6vw,6rem);
+  --labelPos:sticky;
+  --labelTop:110px;
+  --labelMb:0px;
+  --spineCol:64px 1fr;    /* Approach phase spine */
+  --spineX:31px;
+  --gutter:clamp(1.5rem,5vw,4rem);
+  --navH:78px;
+  --siteW:100%;
+  --siteBorder:none;
+  --logoNav:34px;
+  --logoFoot:140px;
+  --aboutCols:1fr 260px;  /* About hero: name + headshot */
+  --headH:340px;          /* headshot frame height */
+  --credCols:repeat(3,1fr);
+  --heroW:82%;
+  --heroH1:3.4rem;
+  --heroGap:6rem;
+}
+@media (max-width:768px){
+  :root{
+    --pt:1.5rem;
+    --sg:6rem;
+    --sgt:3.75rem;
+    --h1s:1.95rem;
+    --h2s:1.45rem;
+    --lead:1.1rem;
+    --gh:1.1rem;
+    --body:1.0625rem;
+    --num:1.6rem;
+    --splitCols:1fr;
+    --splitGap:0.9rem;
+    --labelPos:static;
+    --labelTop:0px;
+    --labelMb:0.9rem;
+    --spineCol:40px 1fr;
+    --spineX:20px;
+    --gutter:1.4rem;
+    --navH:58px;
+    --siteW:392px;
+    --siteBorder:1px solid rgba(94,105,117,.4);
+    --logoNav:26px;
+    --logoFoot:86px;
+    --aboutCols:1fr;
+    --headH:300px;
+    --credCols:1fr;
+    --heroW:100%;
+    --heroH1:2rem;
+    --heroGap:3.6rem;
+  }
+}
+
+/* ------------------------------------------------------- base elements */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{margin:0;background:var(--bg);color:var(--text-primary);font-family:var(--font-sans);font-size:var(--fs-body);line-height:var(--lh-body);font-weight:var(--fw-regular)}
+
+h1,h2,h3,h4{font-family:var(--font-serif);color:var(--text-primary);margin:0;line-height:var(--lh-tight);letter-spacing:var(--tracking-tight);font-weight:var(--fw-regular)}
+
+/* Links — quiet by default, taupe only on hover */
+a{color:var(--link);text-decoration:none;border-bottom:1px solid var(--border);transition:color .2s ease,border-color .2s ease}
+a:hover{color:var(--link-hover);border-color:var(--link-hover)}
+
+hr{border:0;border-top:1px solid var(--rule);margin:0}
+
+::selection{background:var(--structure);color:var(--ink)}
+
+/* ------------------------------------------------------- site pieces */
+/* Uppercase, letterspaced label — echoes the wordmark's spaced capitals */
+.ssp-eyebrow{font-family:var(--font-sans);font-size:var(--fs-eyebrow);font-weight:var(--fw-medium);text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);color:var(--text-label);line-height:1.4}
+
+/* Dashed list with hairline tick markers */
+.ss-list{list-style:none;margin:0;padding:0;max-width:68ch}
+.ss-list li{position:relative;padding-left:2.1rem;margin:0 0 1rem;color:var(--muted);line-height:1.7}
+.ss-list li:last-child{margin-bottom:0}
+.ss-list li::before{content:"";position:absolute;left:0;top:.82em;width:1.1rem;height:1px;background:var(--structure)}
+
+/* Nav / footer links */
+.ss-navlink{font-family:var(--font-sans);font-size:.8125rem;font-weight:500;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);border-bottom:none;transition:color .2s ease}
+.ss-navlink:hover{color:var(--ink);border-bottom:none}
+.ss-navlink.is-active{color:var(--warm-light)}
+
+/* Brand wordmark set in plain type */
+.ssp-wordmark{font-family:var(--font-sans);font-weight:var(--fw-medium);text-transform:uppercase;letter-spacing:.22em;font-size:var(--fs-eyebrow);color:var(--text-primary);line-height:1;white-space:nowrap}
+
+/* Outline button — hairline border, no fill, taupe on hover */
+.ssp-btn{display:inline-flex;align-items:center;gap:.6em;font-family:var(--font-sans);font-size:var(--fs-eyebrow);font-weight:var(--fw-medium);text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);color:var(--text-primary);background:transparent;cursor:pointer;transition:color .2s ease,border-color .2s ease;text-decoration:none;line-height:1.2}
+.ssp-btn--outline{padding:.9em 1.6em;border:1px solid var(--border)}
+.ssp-btn--outline:hover{color:var(--link-hover);border-color:var(--link-hover)}
+
+/* ------------------------------------------------------------- chrome */
+.site-frame{width:var(--siteW,100%);margin:0 auto;border-inline:var(--siteBorder,none);min-height:100vh;overflow:hidden}
+@media (max-width:768px){
+  /* The mobile set was designed against a 392px column; never overflow
+     a narrower phone. */
+  .site-frame{width:min(var(--siteW),100%)}
+}
+
+.site-header{position:sticky;top:0;z-index:10;background:rgba(27,44,62,.88);backdrop-filter:saturate(120%) blur(6px);border-bottom:1px solid rgba(94,105,117,.4)}
+.site-header-bar{max-width:1200px;margin:0 auto;padding-inline:var(--gutter);height:var(--navH);display:flex;align-items:center;justify-content:space-between}
+.site-brand{display:flex;align-items:center;gap:13px;border-bottom:none}
+.site-brand:hover{border-bottom:none}
+.site-brand img{height:var(--logoNav);width:auto;display:block}
+
+.site-nav{display:flex;gap:38px}
+.menu-toggle{display:none;font-family:var(--font-sans);font-size:.8125rem;font-weight:500;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);background:transparent;border:1px solid rgba(94,105,117,.5);padding:8px 12px;cursor:pointer;transition:color .2s ease}
+.menu-toggle:hover{color:var(--ink)}
+.mobile-menu{display:none;flex-direction:column;gap:1.1rem;padding:1.4rem var(--gutter) 1.8rem;border-top:1px solid rgba(94,105,117,.4)}
+@media (max-width:768px){
+  .site-nav{display:none}
+  .menu-toggle{display:inline-block}
+  .mobile-menu.is-open{display:flex}
+}
+
+.site-main{max-width:1200px;margin:0 auto;padding-inline:var(--gutter)}
+
+.site-footer{border-top:1px solid rgba(94,105,117,.4);margin-top:var(--sg)}
+.site-footer-inner{max-width:1200px;margin:0 auto;padding-block:var(--sgt);padding-inline:var(--gutter)}
+.site-footer img{height:var(--logoFoot);width:auto;display:block}

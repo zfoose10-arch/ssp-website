@@ -141,7 +141,6 @@
   --logoNav:34px;
   --logoFoot:140px;
   --aboutCols:1fr 260px;  /* About hero: name + headshot */
-  --headH:340px;          /* headshot frame height */
   --credCols:repeat(3,1fr);
   --heroW:82%;
   --heroH1:3.4rem;
@@ -172,7 +171,6 @@
     --logoNav:26px;
     --logoFoot:86px;
     --aboutCols:1fr;
-    --headH:300px;
     --credCols:1fr;
     --heroW:100%;
     --heroH1:2rem;

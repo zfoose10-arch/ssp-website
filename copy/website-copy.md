@@ -1,6 +1,6 @@
 # SSP Website Copy
 
-**Status: LOCKED, all five pages, July 14, 2026.** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
+**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked.** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
 
 Positioning source: `00 Identity/practice-architecture.md`.
 
@@ -131,21 +131,19 @@ This phase examines:
 
 ### 2 — System Reset
 
-With the diagnosis in hand, we change the system. Not with a single grand intervention, but with a small number of deliberate moves, each one designed to reveal as much as it improves.
+With the diagnosis in hand, we change the system. Not one grand intervention, but a small number of deliberate moves, each designed to reveal as much as it improves.
 
-This is the part most change efforts get wrong. A leadership system is not a machine with a broken part. It is a set of reinforcing relationships, and no one can fully predict how it will respond to being changed, including me. So each move is built to be behaviorally specific, small enough to run without full organizational buy-in, and instrumented so that its effect is legible. What the system does in response is not noise. It is the next piece of the diagnosis.
+This is where most change efforts go wrong. A leadership system is not a machine with a broken part. It is a set of reinforcing relationships, and no one can fully predict how it will respond to change, including me. So each move is small, behaviorally specific, and instrumented. The system's response is not noise. It is the next piece of the diagnosis.
 
 The moves may include:
 
-- Clarifying decision rights and removing ambiguity around authority
-- Resetting escalation norms and defining what requires a decision versus what requires information
-- Embedding accountability into operating cadence, not as a follow-up ritual, but as a structural feature
+- Clarifying decision rights and authority
+- Resetting escalation norms: what requires a decision versus what requires information
+- Embedding accountability into operating cadence as a structural feature, not a follow-up ritual
 - Aligning incentives and reinforcement signals with stated performance standards
 - Adjusting the leader behaviors that are reinforcing the current pattern
 
-Each is anchored to a written contract that names the change, its owner, its leading indicators, and its definition of done. Structured check-ins monitor whether it is holding, fragile, regressing, or stalled. Failure signals are named immediately and the move is adjusted, not abandoned.
-
-The engagement closes when the new pattern is carried in standing operating cadence and the leadership system holds it without external presence.
+Each move is anchored to a written contract: the change, its owner, its leading indicators, its definition of done. Structured check-ins track whether it is holding, fragile, regressing, or stalled, and failure signals are named immediately. The engagement closes when the new pattern runs in standing operating cadence without external presence.
 
 **Outcome:** faster decisions, clearer authority, more reliable execution, and a leadership system that self-corrects when it drifts.
 

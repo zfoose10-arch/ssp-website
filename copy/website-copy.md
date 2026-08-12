@@ -100,6 +100,8 @@ If you believe something beneath the surface deserves attention, a focused conve
 
 **Title:** Summit Spring Partners | Leadership Systems and AI Adoption | Bozeman, Montana
 
+**OG title:** Mirrors the title tag.
+
 **Meta description:** Leadership system diagnosis and AI adoption for founder-led and PE-backed companies between $20M and $200M. Automate the leg work. Your people keep the judgment. Based in Bozeman, Montana.
 
 **OG description:** The problem isn't usually the problem. Leadership systems and AI adoption from Bozeman, Montana.
@@ -209,6 +211,8 @@ If execution feels heavier than the strategy requires, the next step is clarity.
 
 **Title:** How We Work | Summit Spring Partners
 
+**OG title:** Mirrors the title tag.
+
 **Meta description:** Two phases: a precise diagnosis, then a small number of deliberate, instrumented moves. Phase 1 is the only commitment at the start. Stage 0 is a single conversation, no fee.
 
 **OG description:** Diagnose the system before changing it. Phase 1 is the only commitment made at engagement start.
@@ -285,6 +289,8 @@ Start with a conversation. No fee, no pitch.
 
 **Title:** AI Operating Partner | Summit Spring Partners
 
+**OG title:** Mirrors the title tag.
+
 **Meta description:** Most companies do not need to be convinced to adopt AI. They need to understand why the first attempt stalled. Diagnose the system before changing it.
 
 **OG description:** Most companies do not need to be convinced to adopt AI. They need to understand why the first attempt stalled. Diagnose the system before changing it.
@@ -354,6 +360,8 @@ Coaching begins with a conversation to determine focus and fit.
 
 **Title:** Coaching | Summit Spring Partners
 
+**OG title:** Mirrors the title tag.
+
 **Meta description:** Leadership concentrates pressure. There are fewer places to think without consequence. Coaching provides that space. Structured inquiry, not advisory.
 
 **OG description:** Leadership concentrates pressure. There are fewer places to think without consequence. Coaching provides that space. Structured inquiry, not advisory.
@@ -396,6 +404,8 @@ I live and work in Montana. Summit Spring reflects a simple principle: if the so
 
 **Title:** About | Summit Spring Partners
 
+**OG title:** Mirrors the title tag.
+
 **Meta description:** Zane Sigafoos, founder. More than 13 years inside industrial, manufacturing, and operations environments where execution was the unit of work.
 
 **OG description:** Zane Sigafoos, founder. More than 13 years inside industrial, manufacturing, and operations environments where execution was the unit of work.
@@ -437,5 +447,7 @@ This page does not exist.
 **Pricing.** No fee numbers anywhere on the public site.
 
 **Writing rules.** No em dashes. No hyphen used as punctuation in place of a comma, colon, or semicolon.
+
+**Metadata.** og:title always mirrors the title tag, on every page that carries OG tags. No separate og:title copy is ever written.
 
 **Footer.** Logo lockup, nav links, zane@summitspringpartners.com, copyright, and one line in the quote position: *The spring at the summit shapes everything downstream.*

@@ -1,6 +1,6 @@
 # SSP Website Copy
 
-**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked.** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
+**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page.** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
 
 Positioning source: `00 Identity/practice-architecture.md`.
 
@@ -24,17 +24,21 @@ Nav uses "AI Partner" for rhythm; the page H1 carries the full name. No Resource
 
 ## Page: Home — LOCKED
 
+**Eyebrow**
+
+Leadership systems · Bozeman, Montana
+
 **H1**
 
-Are you losing time, money, or people to a problem you've already tried to solve but couldn't?
+The problem isn't usually the problem.
 
 **H2**
 
-Usually it is not the problem you think it is.
+What keeps coming back lives a level deeper, in how decisions get made and reinforced.
 
 **Supporting text**
 
-Summit Spring Partners works at the system level, where decisions are actually made, reinforced, or quietly undermined. That is where execution either holds or stalls.
+That is where I work. It is also where AI adoption holds or stalls, because adoption runs on leadership before it runs on technology.
 
 ### Section: You may recognize this pattern.
 
@@ -76,6 +80,10 @@ I work with leadership teams to examine how decisions are actually made, how acc
 
 The most powerful lever in executive systems is not morale. It is reinforcement of disciplined decisions.
 
+When the work calls for AI, it runs through the same spine. We automate the leg work that burns the team out. Your people keep the judgment calls. The hours come back counted, pointed at what matters most. That engagement model is the AI Operating Partner.
+
+**Link:** AI Operating Partner
+
 ### Section: Who this work is for.
 
 Leaders responsible for performance at scale. Founder-led, privately held, and PE-backed companies between $20M and $200M in revenue, where execution reliability fluctuates, accountability requires constant intervention, or cross-functional friction has a real cost.
@@ -88,9 +96,21 @@ If you believe something beneath the surface deserves attention, a focused conve
 
 **Button:** Start a Conversation
 
+### Metadata
+
+**Title:** Summit Spring Partners | Leadership Systems and AI Adoption | Bozeman, Montana
+
+**Meta description:** Leadership system diagnosis and AI adoption for founder-led and PE-backed companies between $20M and $200M. Automate the leg work. Your people keep the judgment. Based in Bozeman, Montana.
+
+**OG description:** The problem isn't usually the problem. Leadership systems and AI adoption from Bozeman, Montana.
+
 ---
 
 ## Page: Approach — LOCKED
+
+**Eyebrow**
+
+The engagement
 
 **H1**
 
@@ -106,6 +126,8 @@ The work moves through two phases. Phase 1 establishes a precise diagnosis. Phas
 
 ### Stage 0 — The First Conversation
 
+**Eyebrow:** Before engagement · no fee
+
 Before any engagement, a single qualifying conversation. No fee. No commitment. The goal is one thing: determine whether a real system-level problem is present and whether further work would be useful.
 
 If the conversation surfaces something worth examining, we define the scope of Phase 1. If it does not, you leave with a clear framework to pressure-test your next move, and no follow-up pitch.
@@ -113,6 +135,8 @@ If the conversation surfaces something worth examining, we define the scope of P
 Either outcome is a success. The point is clarity.
 
 ### 1 — Discovery (2 to 4 weeks)
+
+**Eyebrow:** Phase 1 · Diagnosis
 
 We begin by establishing clarity around decision performance, not culture, not morale, not strategy. The question is: where is the leadership system producing patterns that are costing the organization performance?
 
@@ -130,6 +154,8 @@ This phase examines:
 **Outcome:** a written Diagnostic Summary, and a clear determination of what the pattern actually is and what changing it would require.
 
 ### 2 — System Reset
+
+**Eyebrow:** Phase 2 · Install & reinforce
 
 With the diagnosis in hand, we change the system. Not one grand intervention, but a small number of deliberate moves, each designed to reveal as much as it improves.
 
@@ -167,6 +193,8 @@ The same discipline applies when a company is deciding what to automate. Most AI
 
 The AI Operating Partner engagement is that diagnosis, applied to the operation itself.
 
+The build that follows keeps one line: the system takes the leg work, your people keep the judgment calls, and the hours that come back are counted.
+
 **Link:** AI Operating Partner
 
 ### Closing statement
@@ -177,9 +205,21 @@ If execution feels heavier than the strategy requires, the next step is clarity.
 
 **Button:** Start a Conversation
 
+### Metadata
+
+**Title:** How We Work | Summit Spring Partners
+
+**Meta description:** Two phases: a precise diagnosis, then a small number of deliberate, instrumented moves. Phase 1 is the only commitment at the start. Stage 0 is a single conversation, no fee.
+
+**OG description:** Diagnose the system before changing it. Phase 1 is the only commitment made at engagement start.
+
 ---
 
 ## Page: AI Operating Partner — LOCKED
+
+**Eyebrow**
+
+An engagement model
 
 **H1**
 
@@ -241,9 +281,21 @@ Start with a conversation. No fee, no pitch.
 
 **Button:** Start a Conversation
 
+### Metadata
+
+**Title:** AI Operating Partner | Summit Spring Partners
+
+**Meta description:** Most companies do not need to be convinced to adopt AI. They need to understand why the first attempt stalled. Diagnose the system before changing it.
+
+**OG description:** Most companies do not need to be convinced to adopt AI. They need to understand why the first attempt stalled. Diagnose the system before changing it.
+
 ---
 
 ## Page: Coaching — LOCKED
+
+**Eyebrow**
+
+Individual leaders
 
 **H1**
 
@@ -298,15 +350,23 @@ Coaching begins with a conversation to determine focus and fit.
 
 **Button:** Start a Conversation
 
+### Metadata
+
+**Title:** Coaching | Summit Spring Partners
+
+**Meta description:** Leadership concentrates pressure. There are fewer places to think without consequence. Coaching provides that space. Structured inquiry, not advisory.
+
+**OG description:** Leadership concentrates pressure. There are fewer places to think without consequence. Coaching provides that space. Structured inquiry, not advisory.
+
 ---
 
 ## Page: About — LOCKED
 
+**Eyebrow**
+
+The founder
+
 **H1**
-
-Meet the Founder
-
-**Name**
 
 Zane Sigafoos
 
@@ -331,6 +391,38 @@ I live and work in Montana. Summit Spring reflects a simple principle: if the so
 **Certifications.** Working Genius. Crucial Conversations.
 
 *No CTA on this page.*
+
+### Metadata
+
+**Title:** About | Summit Spring Partners
+
+**Meta description:** Zane Sigafoos, founder. More than 13 years inside industrial, manufacturing, and operations environments where execution was the unit of work.
+
+**OG description:** Zane Sigafoos, founder. More than 13 years inside industrial, manufacturing, and operations environments where execution was the unit of work.
+
+---
+
+## Page: 404 — LOCKED
+
+**Eyebrow**
+
+404
+
+**H1**
+
+This page does not exist.
+
+**Button:** Return home
+
+*"Return home" is the documented CTA exception, a recovery verb on an error page, ruled 2026-08-11.*
+
+### Metadata
+
+**Title:** Page not found | Summit Spring Partners
+
+**Robots:** noindex
+
+*No meta description and no Open Graph tags exist on this page.*
 
 ---
 

@@ -9,6 +9,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
 <meta property="og:title" content="About | Summit Spring Partners">
 <meta property="og:description" content="Zane Sigafoos, founder. More than 13 years inside industrial, manufacturing, and operations environments where execution was the unit of work.">
 <meta property="og:type" content="website">
@@ -44,15 +46,15 @@
   </header>
 
   <main class="site-main">
-<section style="padding-top:var(--pt,7rem)">
-        <div class="ssp-eyebrow" style="margin:0 0 1.4rem">The founder</div>
+<section style="padding-top:var(--pt,2.75rem)">
+        <div class="ssp-eyebrow" style="margin:0 0 1.3rem">The founder</div>
         <div style="display:grid;grid-template-columns:var(--aboutCols,1fr 260px);gap:var(--splitGap,clamp(2rem,6vw,6rem));align-items:start">
-          <h1 style="font-family:'Source Serif 4',Georgia,serif;font-size:var(--heroH1,3.75rem);line-height:1.08;letter-spacing:-.02em;color:#DEDEDC;margin:0">Zane Sigafoos</h1>
-          <div style="width:100%;border:1px solid rgba(94,105,117,.4)">
+          <h1 style="font-family:'Source Serif 4',Georgia,serif;font-size:var(--heroH1,3.4rem);line-height:1.08;letter-spacing:-.02em;color:#DEDEDC;margin:0;text-wrap:balance">Zane Sigafoos</h1>
+          <div class="ss-frame" style="width:100%">
             <img src="assets/headshot.jpg" alt="Zane Sigafoos" style="width:100%;height:auto;display:block">
           </div>
         </div>
-        <hr style="border:0;border-top:1px solid #5E6975;width:100%;margin:var(--gh,2rem) 0 0">
+        <hr class="ss-rule">
       </section>
 
       <section style="padding-top:var(--heroGap,6rem)">
@@ -66,7 +68,7 @@
             <p style="color:#BCBCB9;font-size:var(--body,1.125rem);line-height:1.7;max-width:68ch;margin:0">I live and work in Montana. Summit Spring reflects a simple principle: if the source is strong, the system downstream is stable.</p>
           </div>
         </div>
-        <hr style="border:0;border-top:1px solid #5E6975;width:var(--heroW,80%);margin:var(--gh,2rem) 0 0">
+        <hr class="ss-rule">
       </section>
 
       <section style="padding-top:var(--sg,10rem)">
@@ -76,15 +78,15 @@
             <div style="display:grid;grid-template-columns:var(--credCols,repeat(3,1fr));gap:clamp(1.6rem,4vw,2.4rem)">
               <div style="border-top:1px solid rgba(94,105,117,.55);padding-top:1.2rem">
                 <div class="ssp-eyebrow" style="margin:0 0 1rem">Education</div>
-                <p style="color:#BCBCB9;font-size:var(--body,1.125rem);line-height:1.6;margin:0">M.A., Executive Coaching and Organizational Consulting, Townsend Institute. B.S., Mechanical Engineering, Colorado School of Mines.</p>
+                <p style="color:#BCBCB9;font-size:var(--body,1.125rem);line-height:1.7;margin:0">M.A., Executive Coaching and Organizational Consulting, Townsend Institute. B.S., Mechanical Engineering, Colorado School of Mines.</p>
               </div>
               <div style="border-top:1px solid rgba(94,105,117,.55);padding-top:1.2rem">
                 <div class="ssp-eyebrow" style="margin:0 0 1rem">Experience</div>
-                <p style="color:#BCBCB9;font-size:var(--body,1.125rem);line-height:1.6;margin:0">13+ years in leadership and operational roles across industries.</p>
+                <p style="color:#BCBCB9;font-size:var(--body,1.125rem);line-height:1.7;margin:0">13+ years in leadership and operational roles across industries.</p>
               </div>
               <div style="border-top:1px solid rgba(94,105,117,.55);padding-top:1.2rem">
                 <div class="ssp-eyebrow" style="margin:0 0 1rem">Certifications</div>
-                <p style="color:#BCBCB9;font-size:var(--body,1.125rem);line-height:1.6;margin:0">Working Genius. Crucial Conversations.</p>
+                <p style="color:#BCBCB9;font-size:var(--body,1.125rem);line-height:1.7;margin:0">Working Genius. Crucial Conversations.</p>
               </div>
             </div>
           </div>
@@ -107,7 +109,7 @@
         <a class="ss-navlink is-active" href="about.html">About</a>
       </nav>
       <div style="margin:2.2rem 0 0;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem 2rem;color:#BCBCB9;font-size:13px;letter-spacing:.04em">
-        <a href="mailto:zane@summitspringpartners.com" style="color:#BCBCB9">zane@summitspringpartners.com</a>
+        <a class="ss-quiet-link" href="mailto:zane@summitspringpartners.com">zane@summitspringpartners.com</a>
         <span>© 2026 Summit Spring Partners</span>
       </div>
     </div>
@@ -124,5 +126,6 @@ document.querySelector('.menu-toggle').addEventListener('click', function () {
 <script>
 (function(){var i=new Image();i.src='/count.php?p='+encodeURIComponent('/about.html');})();
 </script>
+<script src="js/reveal.js" defer></script>
 </body>
 </html>

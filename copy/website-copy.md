@@ -1,6 +1,6 @@
 # SSP Website Copy
 
-**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page.** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
+**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page. Revision 3, 2026-08-17: fusion section added to Home front matter, How I work slimmed, AI Partner fusion echo line.** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
 
 Positioning source: `00 Identity/practice-architecture.md`.
 
@@ -39,6 +39,18 @@ What keeps coming back lives a level deeper, in how decisions get made and reinf
 **Supporting text**
 
 That is where I work. It is also where AI adoption holds or stalls, because adoption runs on leadership before it runs on technology.
+
+### Section: One practice, two expressions
+
+**Eyebrow:** The practice
+
+I consult on the leadership system. I build the AI systems myself. I was an engineer before I was a consultant, and the order matters.
+
+Why both? Two frustrations most owners know: the problem your team keeps re-solving, and the AI push that stalled, or still feels too risky to start. They are usually the same problem. Leadership firms stop at the tools. AI shops never touch the habits. Your pain lives in the seam between them. That seam is my practice.
+
+The AI takes the leg work. Your people keep the judgment calls. The hours that come back are counted.
+
+*Same diagnosis, two sets of tools.*
 
 ### Section: You may recognize this pattern.
 
@@ -80,7 +92,7 @@ I work with leadership teams to examine how decisions are actually made, how acc
 
 The most powerful lever in executive systems is not morale. It is reinforcement of disciplined decisions.
 
-When the work calls for AI, it runs through the same spine. We automate the leg work that burns the team out. Your people keep the judgment calls. The hours come back counted, pointed at what matters most. That engagement model is the AI Operating Partner.
+When the work calls for AI, it runs through the same spine. That engagement model is the AI Operating Partner.
 
 **Link:** AI Operating Partner
 
@@ -236,6 +248,8 @@ Most companies do not need to be convinced to adopt AI. They need to understand 
 **Supporting text**
 
 An engagement model inside the organizational work, not a separate practice. The discipline is the same one that runs through everything here: diagnose the system before changing it.
+
+This is one of two expressions of the same practice. The other is the consulting itself, and every build runs on its spine.
 
 ### Section: The pilot in the closet.
 

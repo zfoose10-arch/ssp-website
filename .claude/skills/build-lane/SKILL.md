@@ -5,7 +5,7 @@ description: The gated build lane for SSP surfaces, as a skill. Use for any buil
 
 # Build lane
 
-A workflow skill: how this house runs a gated build session. Minted 2026-09-05 from the four sessions of that day (hooks, sandbox posture, data wall, the Judge) and pinned to the doctrine it mirrors: the Change Protocol v1.2, The Judge v1, Rules Moved to Hooks v1, and the hard rules in 00 Identity/soul.md. Reverify the pins at each bump; a mirror drifts silently.
+A workflow skill: how this house runs a gated build session. Minted 2026-09-05 from the four sessions of that day (hooks, sandbox posture, data wall, the Judge), the learning crossing added the same evening, and pinned to the doctrine it mirrors: the Change Protocol v1.2, The Judge v1, Rules Moved to Hooks v1, and the hard rules in 00 Identity/soul.md. Reverify the pins at each bump; a mirror drifts silently.
 
 ## The delta prompt
 
@@ -20,7 +20,7 @@ A build prompt names five things and nothing else: the change; the upgrade or ru
 5. **Change Protocol.** Claim the ordinal through `~/scripts/ledger_ordinal.sh claim` before any ledger write. Add or amend rows; walk every dependent by reading and sync or flag it with today's date; retrue version cells in the same pass. Insert the history entry above the previous top entry, keeping that entry's marker in full, and predict the gate's top three ordinals before running it. Commit the ordinal after the entry. Exit: the gate's 4b and 4c agree and the entry names every row it touched.
 6. **Scoped commits.** One commit per repo touched, by path, naming the ordinal, staging files untouched, attribution lines as the session requires. The report will name every file each commit changed, because the Judge matches by name. Exit: every touched repo committed.
 7. **Report.** Write `~/Downloads/<name>-session-<date>.md`: where he stands, one thing to know, next, as three short paragraphs; then a line; then Detail (what runs where), Deviations flagged, Owed with an owner or trigger on every line, a BOUNDARY CONFIRMATION line naming every file written outside the vault and the hub, and the Judge's verdict file named as the last line. Every item the session holds appears; the wording compresses, never the list. Exit: the report stands alone.
-8. **Judge.** Run `~/scripts/judge.sh <report> <surface>`. A FAIL is read and answered in the report, never rerun until it passes. Exit: the verdict file exists and is named in the report.
+8. **Judge, then the learning crossing.** Run `~/scripts/judge.sh <report> <surface>`. A FAIL is read and answered in the report, never rerun until it passes. Then run `~/scripts/learning_crossing.py <report> --verdict <verdict>`, which extracts candidate lessons from the report's flagged deviations and the verdict's findings and logs the count; read the candidates, drop any whose fix already lives in a home, fold duplicates into one lesson, and write each open lesson as one plain register line under today's For review with a judged home, for Zane's ruling through the existing path. Nothing is applied to a home by the session. Exit: the verdict file exists and is named in the report, and the open lessons are under For review.
 9. **Closing gate.** Run `~/scripts/prebuild_gate.sh <surface>` as the last act. The terminal prints only the verdict line and the report path. Exit: GATE CLEAR.
 
 ## Standing constraints

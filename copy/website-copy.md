@@ -1,6 +1,6 @@
 # SSP Website Copy
 
-**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page. Revision 3, 2026-08-17: fusion section added to Home front matter, How I work slimmed, AI Partner fusion echo line.** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
+**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page. Revision 3, 2026-08-17: fusion section added to Home front matter, How I work slimmed, AI Partner fusion echo line. Revision 4, 2026-09-07: diagnose first pass, nine entries on Home, Approach, and AI Partner, from the 2026-09-02 language pass (Ledger entry 148).** This is the copy source for the Claude Design build. Any future edit reopens the affected page as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
 
 Positioning source: `00 Identity/practice-architecture.md`.
 
@@ -44,11 +44,13 @@ That is where I work. It is also where AI adoption holds or stalls, because adop
 
 **Eyebrow:** The practice
 
-I consult on the leadership system. I build the AI systems myself. I was an engineer before I was a consultant, and the order matters.
+I consult on the leadership system. I know AI systems from the inside because I have built them myself. I was an engineer before I was a consultant, and the order matters.
 
 Why both? Two frustrations most owners know: the problem your team keeps re-solving, and the AI push that stalled, or still feels too risky to start. They are usually the same problem. Leadership firms stop at the tools. AI shops never touch the habits. Your pain lives in the seam between them. That seam is my practice.
 
 The AI takes the leg work. Your people keep the judgment calls. The hours that come back are counted.
+
+The AI side opens with a short diagnostic that stands on its own and can end there.
 
 *Same diagnosis, two sets of tools.*
 
@@ -201,13 +203,13 @@ No bundled total at signing. No pre-committed scope without a diagnosis. No obli
 
 This work strengthens the leadership system where decision rights, human dynamics, and reinforcement intersect, the layer where strategy either translates into throughput or quietly stalls.
 
-### Section: When the system in question is the one being built around AI.
+### Section: When the system in question is the one AI is about to inherit.
 
 The same discipline applies when a company is deciding what to automate. Most AI initiatives in companies this size do not fail on the technology. They fail because the tool inherits a system nobody examined, and then executes it faster.
 
 The AI Operating Partner engagement is that diagnosis, applied to the operation itself.
 
-The build that follows keeps one line: the system takes the leg work, your people keep the judgment calls, and the hours that come back are counted.
+Whatever gets switched on keeps one line: the system takes the leg work, your people keep the judgment calls, and the hours that come back are counted.
 
 **Link:** AI Operating Partner
 
@@ -249,7 +251,7 @@ Most companies do not need to be convinced to adopt AI. They need to understand 
 
 An engagement model inside the organizational work, not a separate practice. The discipline is the same one that runs through everything here: diagnose the system before changing it.
 
-This is one of two expressions of the same practice. The other is the consulting itself, and every build runs on its spine.
+This is one of two expressions of the same practice. The other is the consulting itself, and every engagement here runs on its spine.
 
 ### Section: The pilot in the closet.
 
@@ -267,13 +269,13 @@ The first deliverable is a ranked map of where your operation is actually losing
 
 The map names the opportunity and what it is worth. What you do with it is your decision, and leaving with it is a legitimate outcome.
 
-### Section: What you are actually building.
+### Section: What the work leaves behind.
 
 The models themselves are becoming a commodity. What does not commoditize is the accumulated judgment of your own business: your pricing logic, your customer history, the corrections your best people make without thinking about it. Captured, that becomes an asset that compounds. Uncaptured, it walks out the door every time someone retires.
 
-The work builds that capture into how the company operates. A workflow is installed, an internal champion is trained to run it, and every correction they make feeds back so the system gets more like your business and less like a generic tool. Month over month, the evidence is visible: corrections captured, edit rates falling, cycle times shrinking.
+The work decides which AI to switch on and which to leave off, names who owns each approval, and puts that capture into how the company already operates, on the platform you have. An internal champion is trained to run it, and every correction they make feeds back, so the system gets more like your business and less like a generic tool. Month over month, the evidence is visible: corrections captured, edit rates falling, cycle times shrinking.
 
-The ongoing work is governance and judgment. What the system is permitted to decide, where a human stays in the loop, how it is audited, and what happens when the model providers ship a feature that replaces something you built. When that happens, you migrate onto it and redeploy the effort to the next thing. That is the job.
+The ongoing work is governance and judgment. What the system is permitted to decide, where a human stays in the loop, how it is audited, and what happens when the model providers ship a feature that replaces something you switched on. When that happens, you migrate onto it and redeploy the effort to the next thing. That is the job.
 
 ### Section: You own all of it.
 
@@ -285,7 +287,7 @@ This is the thing most companies should be asking about and almost none do. Inst
 
 The best candidates are boring, judgment-heavy, and specific to you. Quoting and estimating, where the pricing instinct lives in one person's head. Receivables follow-up, where tone and relationship history decide whether the call lands. The work that is drowning someone competent, and that no off-the-shelf product understands because it depends on facts about your business alone.
 
-The work that is generic is not worth building. The model providers will ship it for free before long, and you should let them.
+The work that is generic is not worth a system of its own. The model providers will ship it for free before long, and the right call is to switch theirs on and govern it.
 
 ### Section: Who this is for.
 

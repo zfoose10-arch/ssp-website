@@ -5,7 +5,7 @@ description: The gated build lane for SSP surfaces, as a skill. Use for any buil
 
 # Build lane
 
-A workflow skill: how this house runs a gated build session. Minted 2026-09-05 from the four sessions of that day (hooks, sandbox posture, data wall, the Judge), the learning crossing added the same evening, and pinned to the doctrine it mirrors: the Change Protocol v1.2, The Judge v1.1, Rules Moved to Hooks v1, and the hard rules in 00 Identity/soul.md. Reverify the pins at each bump; a mirror drifts silently.
+A workflow skill: how this house runs a gated build session. Minted 2026-09-05 from the four sessions of that day (hooks, sandbox posture, data wall, the Judge), the learning crossing added the same evening, and pinned to the doctrine it mirrors: the Change Protocol v1.2, The Judge v1.1, Rules Moved to Hooks v1.1, and the hard rules in 00 Identity/soul.md. Reverify the pins at each bump; a mirror drifts silently.
 
 ## The delta prompt
 

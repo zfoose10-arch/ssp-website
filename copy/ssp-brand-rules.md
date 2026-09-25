@@ -15,6 +15,8 @@ Six colors. No others. No tints, no shades, no derived ramps, no generated varia
 
 Printed documents, ruled by Zane 2026-09-24 for the Word and Excel templates of Flo's document lane: the page is white paper, headings are `#1B2C3E`, body text is `#5E6975` and rules are `#BCBCB9`, which read well against paper, and eyebrow labels stay `#908472`; slides keep the `#1B2C3E` background.
 
+The Word header, ruled by Zane 2026-09-25 for every SSP Word template: the logo mark at 2.5 times its first height, left aligned in the header block; the SUMMIT SPRING PARTNERS wordmark centered in the header both horizontally and vertically; the header band grown to fit.
+
 ## The warm rule
 
 The two warm values are the only warmth in an otherwise cool system, and that is why they work. They keep that power only if they stay rare.

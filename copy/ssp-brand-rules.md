@@ -15,7 +15,7 @@ Six colors. No others. No tints, no shades, no derived ramps, no generated varia
 
 Printed documents, ruled by Zane 2026-09-24 for the Word and Excel templates of Flo's document lane: the page is white paper, headings are `#1B2C3E`, body text is `#5E6975` and rules are `#BCBCB9`, which read well against paper, and eyebrow labels stay `#908472`; slides keep the `#1B2C3E` background.
 
-The Word header, ruled by Zane 2026-09-25 for every SSP Word template: the logo mark at 2.5 times its first height, left aligned in the header block; the SUMMIT SPRING PARTNERS wordmark centered in the header both horizontally and vertically; the header band grown to fit.
+The Word header, ruled by Zane 2026-09-25 for every SSP Word template: the logo mark at 2.5 times its first height, right aligned in the header block, moved from the left by his second ruling of that day; the SUMMIT SPRING PARTNERS wordmark centered in the header both horizontally and vertically; the header band grown to fit.
 
 ## The warm rule
 

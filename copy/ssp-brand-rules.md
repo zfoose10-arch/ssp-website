@@ -13,6 +13,8 @@ Six colors. No others. No tints, no shades, no derived ramps, no generated varia
 - `#CDC1B3` **accent, light warm.** The italic summary line that closes a section, link hover states, the active nav item.
 - `#908472` **accent, deep warm.** Eyebrow labels and small uppercase section labels only. Never a sentence, never body text.
 
+Printed documents, ruled by Zane 2026-09-24 for the Word and Excel templates of Flo's document lane: the page is white paper, headings are `#1B2C3E`, body text is `#5E6975` and rules are `#BCBCB9`, which read well against paper, and eyebrow labels stay `#908472`; slides keep the `#1B2C3E` background.
+
 ## The warm rule
 
 The two warm values are the only warmth in an otherwise cool system, and that is why they work. They keep that power only if they stay rare.

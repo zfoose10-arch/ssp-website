@@ -22,6 +22,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.request
 
@@ -63,6 +64,8 @@ results = []
 
 def cell(name, ok, detail):
     results.append((name, ok, detail))
+    if not ok:
+        FAILS.append(name)
     print(f"cell {len(results)} {name}: {'PASS' if ok else 'FAIL'}, {detail}")
 
 
@@ -104,6 +107,15 @@ def head_fields(raw):
         out[key] = m.group(1) if m else None
     return out
 
+
+# The Judge session's second sitting, 2026-09-30: the keyed proof line.
+UNIT = "copy_pass_proof.py:no-live" if "--no-live" in sys.argv else "copy_pass_proof.py"
+PY, KEYER = "/opt/homebrew/bin/python3", os.path.expanduser("~/scripts/proof_key.py")
+FAILS = []
+try:
+    PROOF_BEGIN = subprocess.run([PY, KEYER, "begin", UNIT], capture_output=True, text=True).stdout.strip() or "none@0"
+except Exception:
+    PROOF_BEGIN = "none@0"
 
 # Cell 1: text integrity against the base commit.
 try:
@@ -263,8 +275,17 @@ closing = f"cells passed {passed}, failed {failed}, of {len(results)}"
 print(closing)
 try:
     os.makedirs(os.path.dirname(LOG), exist_ok=True)
-    with open(LOG, "a", encoding="utf-8") as f:
-        f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} copy_pass_proof.py {closing}\n")
+    try:
+        fd, fails_path = tempfile.mkstemp(prefix="proof-fails.")
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write("".join(n + "\n" for n in FAILS))
+        wrote = subprocess.run([PY, KEYER, "write-line", "--unit", UNIT, "--begin", PROOF_BEGIN, "--log", LOG,
+                                "--fails-file", fails_path, "--", f"copy_pass_proof.py {closing}"], capture_output=True, text=True).returncode == 0
+    except Exception:
+        wrote = False
+    if not wrote:
+        with open(LOG, "a", encoding="utf-8") as f:
+            f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} copy_pass_proof.py {closing} [key none unit {UNIT}: the writer could not run]\n")
 except Exception as exc:
     print(f"proof log not written: {exc}")
 sys.exit(0 if failed == 0 else 1)

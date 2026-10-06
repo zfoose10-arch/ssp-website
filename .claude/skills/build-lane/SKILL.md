@@ -29,7 +29,6 @@ Every phase exit records the session's spend and progress on its build's item in
 
 - The five hooks are live: obey them, route around a refusal, never disable one.
 - Three lines beside the halt class, from the AIOP Build Doctrine v1.13: a model's refusal of work outside the ruled bounds is a halt and never a rung on the ladder; a failed credential halts and is never worked around; an unattended run is scoped to the one to three hour reliability band, and anything longer is split at a checkpoint.
-- The prompt ends with the terminal marker line; a prompt without it is truncated and the session halts.
 - The compaction handoff, ruled 2026-09-23: a build session that compacts does not continue on the summary. The compaction hook prints the order: write `~/Downloads/handoff-<name>-<date>.<stamp>.md` with the fields it names, commit nothing, claim nothing, and stop; rule H refuses every other write while the marker stands. The handoff never triggers a compaction. Since v1.10 the same marker, order and guard serve the boundaries, the budget and the spend line.
 - Any output over 2,500 characters goes to a dated file under Downloads with a short terminal lead; the chat message is the pointer, not the deliverable.
 - A CLIENT SCOPE line whenever a client repo is touched; that client's document home is never read unless the delta says so; every proof on fabricated fixtures.

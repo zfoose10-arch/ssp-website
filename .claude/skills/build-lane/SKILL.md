@@ -50,7 +50,7 @@ A window is one transcript, so a resume starts at zero. Past either subagent cei
 A stopped session, by a time box, a hold, or a handoff, names the phase it stopped in and the artifacts that exist, in its report or its handoff file. The resume prompt names that file and says continue, and the session runs the resume phase:
 
 1. **Gate.** Run `~/scripts/prebuild_gate.sh <surface>` as phase 1 does.
-2. **Check.** On a handoff, run `python3 ~/scripts/handoff_check.py <handoff>`; a finding is reconciled from disk before anything else, never from the summary the handoff was written on. After a boundary its RESUME line names the phase to continue at.
+2. **Check.** On a handoff, run `python3 ~/scripts/handoff_check.py --claim <handoff>`, which since 2026-10-09 claims it for this session, so the wrapper and a hand resume never start it twice; a finding is reconciled from disk before anything else, never from the summary the handoff was written on. After a boundary its RESUME line names the phase to continue at.
 3. **Read.** The proposal the handoff names and the handoff, whole, and any chat ruling it carries is written into the day's note in the close grammar.
 4. **Carry.** Claim no second ordinal when one is claimed and uncommitted for the build: the handoff's Claimed ordinal line is what the stop hook counts as this session's claim. An identity edit the handoff names is shown to Zane again and waits for a token written after this session started.
 5. **Continue** at the named next step. A Judge lap the handoff names in flight has an unproven fix: reproduce the finding, finish the fix under the scoped stop clause, rerun the full matrix through `python3 ~/scripts/proof_key.py matrix`, then run the next lap, every prior verdict kept.

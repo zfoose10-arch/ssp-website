@@ -1,6 +1,6 @@
 # SSP Website Copy
 
-**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page. Revision 3, 2026-08-17: fusion section added to Home front matter, How I work slimmed, AI Partner fusion echo line. Revision 4, 2026-09-07: diagnose first pass, nine entries on Home, Approach, and AI Partner, from the 2026-09-02 language pass (Ledger entry 148). Revision 5, 2026-10-27: the five pages become one page of seven bands that follows the spring from the summit down; every locked passage carries over re-sequenced, four new passages approved by Zane in chat (the summit italic, the consulting lead, the AI band face, the coaching lead), "leg work" becomes "busywork" sitewide, and the AI page's subheadline and its "pilot in the closet" section retire from the page (recorded below). Each band shows a face and unfolds the rest of its locked copy in place under one plain "More on this" control. Revision 5a, 2026-10-27: the strings the one page build needed (the sorter's six cards, two column labels, two counters and its one instruction line; the footer line), one H1 on the page, the phase headings reworded, the AI band's self link dropped, the contact band's eyebrow added.** This is the copy source for the build. Any future edit reopens the affected band as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
+**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page. Revision 3, 2026-08-17: fusion section added to Home front matter, How I work slimmed, AI Partner fusion echo line. Revision 4, 2026-09-07: diagnose first pass, nine entries on Home, Approach, and AI Partner, from the 2026-09-02 language pass (Ledger entry 148). Revision 5, 2026-10-27: the five pages become one page of seven bands that follows the spring from the summit down; every locked passage carries over re-sequenced, four new passages approved by Zane in chat (the summit italic, the consulting lead, the AI band face, the coaching lead), "leg work" becomes "busywork" sitewide, and the AI page's subheadline and its "pilot in the closet" section retire from the page (recorded below). Each band shows a face and unfolds the rest of its locked copy in place under one plain "More on this" control. Revision 5a, 2026-10-27: the strings the one page build needed (the sorter's six cards, two column labels, two counters and its one instruction line; the footer line), one H1 on the page, the phase headings reworded, the AI band's self link dropped, the contact band's eyebrow added. Revision 6, 2026-10-27: a copy pass against the Signal Integrity method (Version 4, minted) and the Plain Sight method (Version 2, draft), on Zane's brief: make sure the site reads in alignment with both methods; not jargon heavy; humble, down to earth, and polished enough for an executive. The consulting, AI Operating Partner, coaching, practice and founder bands reopen as drafts with their new text; every changed passage, before and after, is in copy/revision-6-changes.md for Zane's approval, and the bands relock on it.** This is the copy source for the build. Any future edit reopens the affected band as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
 
 Positioning source: `00 Identity/practice-architecture.md`.
 
@@ -54,7 +54,7 @@ That is where I work. It is also where AI adoption holds or stalls, because adop
 
 *Everything here comes down to a better relationship between people and their work.*
 
-### Band 2: Consulting (#consulting)
+### Band 2: Consulting (#consulting), DRAFT, Revision 6
 
 **Eyebrow**
 
@@ -66,7 +66,7 @@ The spring at the summit shapes everything downstream.
 
 **Lead (new, Revision 5)**
 
-When the problem that keeps coming back is solved at its source, and the leadership team runs as one system, the whole organization moves more easily. More gets done, faster, and better.
+When a problem keeps coming back, someone in the building usually already knows why. The work is finding where that knowledge stops before it reaches a decision, and repairing that.
 
 **Face, in order**
 
@@ -84,13 +84,13 @@ The organization is capable. The people are committed. And yet:
 - Commitments are made and missed, absorbed without consequence.
 - Information arrives that should change the next decision, and the next decision does not change.
 
-This is not a talent problem. It is a system problem. And systems can be changed when the right layer is examined.
+This is usually a system problem, not a talent problem. And systems can be changed when the right layer is examined.
 
 #### Surface fixes do not hold.
 
 When performance stalls, organizations reach for frameworks, workshops, or cultural resets. Many are useful. But without adjusting decision standards and reinforcement, they do not hold.
 
-Stalled decisions, recurring political behavior, poor escalation, and unreliable forecasts are rarely talent problems. They are reinforcement problems.
+Stalled decisions, recurring political behavior, poor escalation, and unreliable forecasts are rarely talent problems. More often, people have learned what to raise and what to keep quiet from what actually gets rewarded.
 
 *Behavior follows what is reinforced, not what is announced.*
 
@@ -102,11 +102,11 @@ An outside read is the instrument for that. Not advice, and not a second opinion
 
 #### How I work.
 
-I work with leadership teams to examine how decisions are actually made, how accountability is reinforced, and what assumptions are shaping behavior beneath the surface. We find where execution is becoming expensive in time, margin, trust, and energy, and we determine what it would actually take to change it.
+I work with leadership teams to examine how decisions are actually made, how accountability is reinforced, and what assumptions are shaping behavior beneath the surface. We count what it is costing in your own numbers, and we test small changes before anything is rolled out.
 
 *Decision quality drives risk exposure. Risk exposure drives execution reliability. Execution reliability drives financial performance.*
 
-The most powerful lever in executive systems is not morale. It is reinforcement of disciplined decisions.
+The lever that holds is rarely morale. It is what leaders pay attention to, measure, and reward.
 
 When the work calls for AI, it runs through the same spine. That engagement model is the AI Operating Partner.
 
@@ -118,23 +118,23 @@ Execution problems are patterned. They appear in decision breakdowns long before
 
 **Supporting text**
 
-The work moves through two phases. Phase 1 establishes a precise diagnosis. Phase 2 installs and reinforces the change.
+The work moves through two phases. Phase 1 finds where the problem lives and what it costs. Phase 2 tests the change and installs it.
 
-#### Stage 0, the first conversation
+#### The first conversation
 
 **Eyebrow:** Before engagement · no fee
 
-Before any engagement, a single qualifying conversation. No fee. No commitment. The goal is one thing: determine whether a real system-level problem is present and whether further work would be useful.
+Before any engagement, a first conversation. No fee. No commitment. It is meant to help with something real, and to find out whether a real system-level problem is present. If more work looks useful, a second conversation is with you directly: what each of us wants, what each of us will and will not do, and plain notice that the work will look at the leadership team itself, you included.
 
 If the conversation surfaces something worth examining, we define the scope of Phase 1. If it does not, you leave with a clear framework to pressure-test your next move, and no follow-up pitch.
 
 Either outcome is a success. The point is clarity.
 
-#### Phase 1, Discovery (2 to 4 weeks)
+#### Phase 1, Discovery
 
 **Eyebrow:** Phase 1 · Diagnosis
 
-We begin by establishing clarity around decision performance, not culture, not morale, not strategy. The question is: where is the leadership system producing patterns that are costing the organization performance?
+We start with the problem that is costing you and trace it back through the people closest to it: who knew first, what they did with it, and where it stopped. That includes the managers in the middle, and people who raised it before, some of whom may have left.
 
 This phase examines:
 
@@ -145,9 +145,15 @@ This phase examines:
 - Where truth moves too slowly to prevent failure
 - What assumptions are shaping behavior beneath the stated values
 
-**Objective:** to understand how decision standards are currently defined and reinforced, and whether the presenting problem is the real problem. The presenting problem almost never is.
+We count what the problem has already cost, with your finance lead holding the pen and only the numbers they would defend to a board. Not a forecast.
 
-**Outcome:** a written Diagnostic Summary, and a clear determination of what the pattern actually is and what changing it would require.
+**Objective:** to find where the truth about the problem stops before it reaches a decision, and whether that is really what is costing you.
+
+If the real limit turns out to be something else, such as too few people or a missing skill, I say so, and the work changes or stops there.
+
+**Outcome:** a short written map of where the problem lives, my best explanation with the strongest alternative beside it, and what it has cost so far. Before you see it, a second practitioner reviews it and argues the other side.
+
+Then we work through it with your leadership team in three sessions, starting small. The team corrects the map and makes it its own. The last session ends with a plain choice: make the change, keep things as they are knowing the cost, or turn toward what is really in the way. Each answer is a good outcome.
 
 #### Phase 2, System Reset
 
@@ -165,13 +171,15 @@ The moves may include:
 - Aligning incentives and reinforcement signals with stated performance standards
 - Adjusting the leader behaviors that are reinforcing the current pattern
 
-Each move is anchored to a written contract: the change, its owner, its leading indicators, its definition of done. Structured check-ins track whether it is holding, fragile, regressing, or stalled, and failure signals are named immediately. The engagement closes when the new pattern runs in standing operating cadence without external presence.
+Each move is written down before it starts: the change, who owns it, one thing you will do differently as CEO to back it, and what would tell us to expand it or stop it. Check-ins read each move as holding, fragile, regressing, or stalled, and no move is judged before it has had time to work.
 
-**Outcome:** faster decisions, clearer authority, more reliable execution, and a leadership system that self-corrects when it drifts.
+The engagement closes when you have made the change your own in front of your team and the team can work the next problem this way without me. I come back at ninety days and at nine months to read the numbers with your finance lead.
+
+**Outcome:** change measured in your own numbers, against the cost counted at the start. The nine month reading is the one that counts.
 
 #### How commitment works.
 
-Phase 1 is the only commitment made at engagement start. At the close of Phase 1, you have an accurate diagnosis and a clear picture of what Phase 2 would address. Phase 2 is defined together at that point, not before.
+Phase 1 is the only commitment made at engagement start. At the close of Phase 1, you have the map, what the problem has cost, and a clear choice about what comes next. Phase 2 is defined together at that point, not before. Stopping there is a good outcome.
 
 No bundled total at signing. No pre-committed scope without a diagnosis. No obligation to continue if the work is not the right fit.
 
@@ -189,7 +197,7 @@ This work strengthens the leadership system where decision rights, human dynamic
 
 If execution feels heavier than the strategy requires, the next step is clarity.
 
-### Band 3: AI Operating Partner (#ai-partner)
+### Band 3: AI Operating Partner (#ai-partner), DRAFT, Revision 6
 
 **Eyebrow**
 
@@ -219,7 +227,7 @@ This is one of two expressions of the same practice. The other is the consulting
 
 #### The diagnosis is the work.
 
-The single most reliable predictor of whether an AI implementation succeeds is whether the business defined what success looked like before anything was deployed. Almost nobody does it. That is why the failure rate is what it is. It is also where this engagement begins.
+An AI project can only be judged against what the business said success looks like before anything was built. That is where this engagement begins.
 
 The first deliverable is a ranked map of where your operation is actually losing time, judgment, and margin, and which of those losses are structural rather than technical. That distinction determines everything downstream. Some friction resolves through a targeted build. Some friction is a decision-rights problem wearing a technology costume, and no tool will touch it.
 
@@ -259,7 +267,7 @@ Founder-led, privately held, and PE-backed companies between $20M and $200M in r
 
 If the enthusiasm in the room is running ahead of the diagnosis, that gap is worth examining before anything gets built.
 
-### Band 4: Coaching (#coaching)
+### Band 4: Coaching (#coaching), DRAFT, Revision 6
 
 **Eyebrow**
 
@@ -271,7 +279,7 @@ Leadership concentrates pressure.
 
 **Lead (new, Revision 5)**
 
-In the middle of all of it, one person can stall. Coaching gives that person a new vantage point: a place to think, and a way to see the situation that is holding them.
+In the middle of all of it, one person can stall. Coaching gives that person a new vantage point: a place to think, and a way to see what is holding them in place.
 
 **Face, in order**
 
@@ -281,7 +289,11 @@ As responsibility increases, decision quality becomes more consequential. There 
 
 Coaching centers on decision clarity.
 
-When recurring patterns appear as hesitation, overextension, defensiveness, or avoidance, we examine the assumptions shaping those responses, not to analyze them, but to pressure-test them against the reality the leader is actually navigating.
+Most leaders who feel stuck already know the choice they keep not making. The work is finding out what makes it feel impossible.
+
+We start with where you want to go. Then we walk back through the decisions you are making now until you reach the one that no longer makes sense to you. Sometimes a belief you have never tested is in the way. Sometimes it is time, or a skill, and I say so plainly.
+
+Each session ends with one small choice you make before the next, to find out whether that belief holds.
 
 How a leader interprets a situation determines how they respond. Repeated responses form habits. Habits shape how others experience the leader's authority.
 
@@ -293,11 +305,11 @@ How a leader interprets a situation determines how they respond. Repeated respon
 
 Coaching is offered selectively, as a complement to consulting engagements, or for leaders navigating a specific inflection point. The work is demanding. It is reserved for clients whose situations warrant it.
 
-Most decision patterns are not really about the decision. They hold in place because of how a leader has come to understand themselves, what they believe they must be, protect, or prove. When a pattern keeps returning despite a leader knowing better, that is usually the level it lives at. The work goes there when the situation warrants it, because a leader is more than the sum of their decisions, and durable change rarely comes from the surface.
+Most decision patterns are not really about the decision. They hold in place because of how a leader has come to understand themselves, what they believe they must be, protect, or prove. When a pattern keeps returning despite a leader knowing better, that is usually the level it lives at. The work goes there only when you choose to, because a leader is more than the sum of their decisions, and durable change rarely comes from the surface. It stays with the choices in front of you now, not your history.
 
 #### What an engagement looks like.
 
-Coaching runs in defined arcs, not open-ended relationships. A typical engagement is six months, meeting weekly, with a focus named at the start and revisited at the midpoint. Between sessions the work continues, because the patterns under examination only show themselves under live pressure. At the end of the arc, we decide together whether the work is done or whether a new focus has earned another one.
+Coaching runs in defined arcs, not open-ended relationships. A typical engagement is six months. It starts with where you want to go, in your own words, and one line on what you will be choosing differently. Between sessions the work continues, because the patterns under examination only show themselves under live pressure. The arc ends when you can do this work on your own, and three months later we read that line again together.
 
 #### Patterns this work addresses.
 
@@ -312,9 +324,9 @@ Consulting strengthens organizational decision architecture and reinforcement sy
 
 They are distinct, though the same principles run through both. An organization can have a well-designed decision architecture and still have leaders whose internal patterns undermine it. Coaching addresses that layer.
 
-Coaching is its own engagement, entered by the leader's own choice, not a phase of consulting and not something added to it. When a consulting engagement surfaces a pattern a leader wants to examine in themselves, that is an invitation, never an assumption.
+Coaching is its own engagement, entered by the leader's own choice, not a phase of consulting and not something added to it. When a consulting engagement surfaces a pattern a leader wants to examine in themselves, that is an invitation, never an assumption. When a company pays for coaching, what is said in it stays with the leader.
 
-### Band 5: One practice, two expressions (#practice)
+### Band 5: One practice, two expressions (#practice), DRAFT, Revision 6
 
 **H2**
 
@@ -324,7 +336,7 @@ One practice, two expressions
 
 I consult on the leadership system. I know AI systems from the inside because I have built them myself. I was an engineer before I was a consultant, and the order matters.
 
-Why both? Two frustrations most owners know: the problem your team keeps re-solving, and the AI push that stalled, or still feels too risky to start. They are usually the same problem. Leadership firms stop at the tools. AI shops never touch the habits. Your pain lives in the seam between them. That seam is my practice.
+Why both? Two frustrations most owners know: the problem your team keeps re-solving, and AI work that still feels too risky to start. They are usually the same problem, in how decisions get made and what gets rewarded. I work on both sides of it.
 
 The AI takes the busywork. Your people keep the judgment calls. The hours that come back are counted.
 
@@ -332,7 +344,7 @@ The AI side opens with a short diagnostic that stands on its own and can end the
 
 *Same diagnosis, two sets of tools.*
 
-### Band 6: The founder (#about)
+### Band 6: The founder (#about), DRAFT, Revision 6
 
 **Eyebrow**
 
@@ -348,9 +360,9 @@ The leadership challenges I work on do not live in theory. They show up in execu
 
 For more than 13 years, I worked inside industrial, manufacturing, and operations environments where execution was the unit of work and leadership systems determined whether it held. I saw firsthand how small distortions in decision quality compound into operational drag. Over time, I became less interested in surface fixes and more interested in the systems producing the patterns.
 
-Summit Spring Partners was built from that experience. My work begins with decision architecture and reinforcement, not tools or typologies. Sustainable performance requires that leaders examine how authority is defined, how escalation actually works, and what behaviors are being rewarded. That examination is the starting point, not the end of a long diagnostic process.
+Summit Spring Partners was built from that experience. My work begins with how decisions get made and what gets rewarded, not with tools or typologies. I start with what the people closest to a problem already know, and where that knowledge stops before it reaches a decision.
 
-That same discipline informs my coaching work. At the individual level, decision clarity determines leadership effectiveness under pressure. At the organizational level, reinforced decision standards determine execution reliability. The principles are the same. The unit of work is different.
+That same discipline informs my coaching work. With one leader, the question is the choice they keep not making and what holds it in place. With a leadership team, it is where the truth stops on its way to a decision. The principles are the same. The unit of work is different.
 
 I live and work in Montana. Summit Spring reflects a simple principle: if the source is strong, the system downstream is stable.
 

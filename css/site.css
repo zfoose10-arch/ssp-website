@@ -350,10 +350,23 @@ hr{border:0;border-top:1px solid var(--rule);margin:0;transition:border-color .2
 .ss-more[open] .ss-more-mark::after{display:none}
 .ss-more>.band-prose{margin-top:var(--gh);padding-bottom:1rem}
 
-/* Founder band: name beside the headshot, then the credential rules */
-.founder-head{display:grid;grid-template-columns:var(--aboutCols,1fr 260px);gap:var(--splitGap);align-items:start}
-.founder-head .ss-frame{width:100%;max-width:320px}
-.founder-head img{width:100%;height:auto;display:block}
+/* Founder band. Above 768px two columns: the name and the bio on the
+   left, the headshot on the right, its top level with the name. The photo
+   takes no height of its own, so it is never taller than the bio beside
+   it; object-fit crops it when the bio runs short. On phones the photo
+   sits above the eyebrow and the name at a modest width. The credential
+   rules run full width below both columns. */
+.founder{display:grid;grid-template-columns:minmax(0,1fr) clamp(260px,24vw,320px);grid-template-areas:"eye ." "text photo";column-gap:var(--splitGap);align-items:start}
+.founder>.ssp-eyebrow{grid-area:eye;margin:0 0 1.3rem}
+.founder-text{grid-area:text;min-width:0}
+.founder-photo{grid-area:photo;position:relative;align-self:stretch}
+.founder-photo .ss-frame{position:absolute;top:0;left:0;right:0;aspect-ratio:2/3;max-height:100%}
+.founder-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 25%;display:block}
+@media (max-width:768px){
+  .founder{grid-template-columns:1fr;grid-template-areas:"photo" "eye" "text"}
+  .founder-photo{align-self:start;margin:0 0 2.2rem}
+  .founder-photo .ss-frame{position:static;width:min(56%,200px);max-height:none}
+}
 .cred-grid{display:grid;grid-template-columns:var(--credCols,repeat(3,1fr));gap:clamp(1.6rem,4vw,2.4rem);max-width:1000px}
 .cred-grid>div{border-top:1px solid var(--rule);padding-top:1.2rem}
 .cred-grid .ssp-eyebrow{margin:0 0 1rem}

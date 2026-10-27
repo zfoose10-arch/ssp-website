@@ -2,7 +2,7 @@
 
 2026-10-27. The copy pass against the Signal Integrity method (Version 4) and the Plain Sight method (Version 2 draft), on your brief: aligned with both methods, not jargon heavy, humble, down to earth, polished for an executive. Every changed passage on the page is here, in page order; no other rendered string changed. In the copy doc, the five changed bands carry ", DRAFT, Revision 6" on their headings and the status paragraph names Revision 6. Passages left alone are not listed. Where a passage is new, Before reads "new passage" and names what it follows. Section numbers point into the method files in copy/method/.
 
-Approve, strike or reword any entry; the bands relock on your word.
+Approved in full by Zane, 2026-10-27. The five bands are relocked in copy/website-copy.md.
 
 ## 1. Consulting, Lead
 

@@ -36,7 +36,7 @@ Branch website-one-page, pull request #1. Nothing merged, main untouched, nothin
 
 ## Left for the home session
 
-- Your read of copy/revision-6-changes.md, then relock the five bands.
+- Done after the report: Zane approved every change in copy/revision-6-changes.md on 2026-10-27, and the five bands are relocked.
 - The gate, then the Judge against copy/website-copy.md and the two method files.
 - **Before deploy:** scripts/deploy.sh does not exclude shots/ or this report, so a deploy as it stands would publish both. Add excludes or move them first.
 - The merge of pull request #1, then the deploy: you run scripts/deploy.sh and type yes. Then run copy_pass_proof.py live.

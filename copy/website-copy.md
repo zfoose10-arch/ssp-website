@@ -1,6 +1,6 @@
 # SSP Website Copy
 
-**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page. Revision 3, 2026-08-17: fusion section added to Home front matter, How I work slimmed, AI Partner fusion echo line. Revision 4, 2026-09-07: diagnose first pass, nine entries on Home, Approach, and AI Partner, from the 2026-09-02 language pass (Ledger entry 148). Revision 5, 2026-10-27: the five pages become one page of seven bands that follows the spring from the summit down; every locked passage carries over re-sequenced, four new passages approved by Zane in chat (the summit italic, the consulting lead, the AI band face, the coaching lead), "leg work" becomes "busywork" sitewide, and the AI page's subheadline and its "pilot in the closet" section retire from the page (recorded below). Each band shows a face and unfolds the rest of its locked copy in place under one plain "More on this" control.** This is the copy source for the build. Any future edit reopens the affected band as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
+**Status: LOCKED, all five pages, July 14, 2026. Revision 1, same day: Approach System Reset section distilled, approved, relocked. Revision 2, 2026-08-11: Home hero and How I work, Approach AI section, metadata and eyebrow coverage sitewide, About H1 reconciled to page. Revision 3, 2026-08-17: fusion section added to Home front matter, How I work slimmed, AI Partner fusion echo line. Revision 4, 2026-09-07: diagnose first pass, nine entries on Home, Approach, and AI Partner, from the 2026-09-02 language pass (Ledger entry 148). Revision 5, 2026-10-27: the five pages become one page of seven bands that follows the spring from the summit down; every locked passage carries over re-sequenced, four new passages approved by Zane in chat (the summit italic, the consulting lead, the AI band face, the coaching lead), "leg work" becomes "busywork" sitewide, and the AI page's subheadline and its "pilot in the closet" section retire from the page (recorded below). Each band shows a face and unfolds the rest of its locked copy in place under one plain "More on this" control. Revision 5a, 2026-10-27: the strings the one page build needed (the sorter's six cards, two column labels, two counters and its one instruction line; the footer line), one H1 on the page, the phase headings reworded, the AI band's self link dropped, the contact band's eyebrow added.** This is the copy source for the build. Any future edit reopens the affected band as a draft, gets re-approved, and recommits. Repo home: `~/Projects/ssp-website/copy`. Vault home: `03 Projects`.
 
 Positioning source: `00 Identity/practice-architecture.md`.
 
@@ -130,7 +130,7 @@ If the conversation surfaces something worth examining, we define the scope of P
 
 Either outcome is a success. The point is clarity.
 
-#### 1, Discovery (2 to 4 weeks)
+#### Phase 1, Discovery (2 to 4 weeks)
 
 **Eyebrow:** Phase 1 · Diagnosis
 
@@ -149,7 +149,7 @@ This phase examines:
 
 **Outcome:** a written Diagnostic Summary, and a clear determination of what the pattern actually is and what changing it would require.
 
-#### 2, System Reset
+#### Phase 2, System Reset
 
 **Eyebrow:** Phase 2 · Install & reinforce
 
@@ -205,7 +205,7 @@ Keep the judgment work. Fight for every hour the busywork takes.
 
 The work that burns people out is usually work a system should carry. When a system carries it, speed, quality, and consistency go up, and the hours come back to the people who were carrying them: for better results, or for a better life outside the work.
 
-**Widget slot:** the busywork or judgment sorter sits in this band's face, below the lead, the one interactive element on the page.
+**Widget, the busywork or judgment sorter:** instruction line "Sort each task: busywork or judgment." Six cards with their hours: Quoting and estimating (6), Receivables follow up (4), Status updates (3), Document chasing (3), Scheduling (2), A pricing call (1). Column labels "Busywork" and "Judgment". The busywork counter reads "<n> hours back"; the judgment column reads "stays with a person". Nothing is sent or stored.
 
 **Unfolds (More on this)**
 
@@ -252,8 +252,6 @@ The same discipline applies when a company is deciding what to automate. Most AI
 The AI Operating Partner engagement is that diagnosis, applied to the operation itself.
 
 Whatever gets switched on keeps one line: the system takes the busywork, your people keep the judgment calls, and the hours that come back are counted.
-
-**Link:** AI Operating Partner (anchor #ai-partner)
 
 #### Who this is for.
 
@@ -340,7 +338,7 @@ The AI side opens with a short diagnostic that stands on its own and can end the
 
 The founder
 
-**H1**
+**H2**
 
 Zane Sigafoos
 
@@ -367,6 +365,10 @@ I live and work in Montana. Summit Spring reflects a simple principle: if the so
 *No CTA on this page.*
 
 ### Band 7: Start a conversation (#contact)
+
+**Eyebrow**
+
+The conversation
 
 #### Who this work is for.
 
@@ -496,7 +498,7 @@ The reason is almost never the technology. Automation does not adjudicate. It in
 
 **Metadata.** og:title always mirrors the title tag, on every page that carries OG tags. No separate og:title copy is ever written.
 
-**Footer.** Logo lockup, the four anchor links, zane@summitspringpartners.com, copyright, and one line in the quote position: *The spring at the summit shapes everything downstream.*
+**Footer.** Logo lockup, the four anchor links, zane@summitspringpartners.com, copyright, and one line in the quote position: *The spring at the summit shapes everything downstream.* The copyright line reads exactly "© 2026 Summit Spring Partners".
 
 **One page.** Seven bands in the site map's order, alternating the near black ground and the deep blue ground so each band reads as its own screen; one idea per band face; the summit image only behind band 1.
 

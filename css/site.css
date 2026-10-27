@@ -275,9 +275,9 @@ hr{border:0;border-top:1px solid var(--rule);margin:0;transition:border-color .2
 
 /* ------------------------------------------- one page, seven bands
    Revision 5. Each band is its own screen on one of two grounds: the
-   deep blue base and a near black. The page ground stays the base. */
+   deep blue base and the deep ground of brand rules 2.1. */
 :root{
-  --bg-deep:#0E161F;   /* near black ground for alternate bands; not among the six, ruling owed */
+  --bg-deep:#0E161F;   /* deep ground, brand rules 2.1: alternate band ground only, never text or structure */
   --barH:60px;         /* sticky bar height on the one page */
   --bandPad:clamp(5.5rem,14vh,10rem);
   --bandH2:clamp(2.1rem,1.3rem + 3.2vw,3.6rem);
@@ -297,7 +297,6 @@ hr{border:0;border-top:1px solid var(--rule);margin:0;transition:border-color .2
 .band{position:relative;background:var(--bg-navy);padding-block:var(--bandPad);min-height:100vh;min-height:100svh}
 .band--deep{background:var(--bg-deep)}
 .band-inner{position:relative;max-width:1200px;margin:0 auto;padding-inline:var(--gutter)}
-.band .ssp-eyebrow{color:var(--muted)}
 .band-head>.ssp-eyebrow{margin:0 0 1.3rem}
 .band-title{font-size:var(--bandH2);max-width:20ch;text-wrap:balance}
 .band-lead{font-size:var(--lead);color:var(--ink);line-height:1.5;max-width:50ch;margin:var(--gh) 0 0}
@@ -313,13 +312,15 @@ hr{border:0;border-top:1px solid var(--rule);margin:0;transition:border-color .2
 .band-prose p.ss-italic{color:var(--warm-light);font-size:var(--lead);line-height:1.45;margin:var(--gh) 0}
 
 /* Summit band. The hero photo is one variable: data-hero on the band.
-   Image sets fall back to the JPEG where unsupported; scroll attachment only. */
-.band--summit{display:flex;align-items:flex-end;overflow:hidden;min-height:calc(100vh - var(--barH,60px));min-height:calc(100svh - var(--barH,60px));padding-bottom:clamp(3.5rem,10vh,7rem)}
+   Image sets fall back to the JPEG where unsupported; scroll attachment only.
+   The scrim fades from transparent to the band's ground (brand rules 2.1). */
+.band--summit{--heroClear:clamp(8rem,28vh,16rem);overflow:hidden;min-height:calc(100vh - var(--barH,60px));min-height:calc(100svh - var(--barH,60px));padding-top:var(--heroClear);padding-bottom:clamp(3.5rem,10vh,7rem)}
 .band--summit .band-inner{width:100%}
-.summit-photo{position:absolute;inset:0;background-color:var(--bg-navy);background-repeat:no-repeat;background-size:cover;background-position:50% 30%;background-attachment:scroll}
+.summit-photo{position:absolute;inset:0;background-color:var(--bg-navy);background-repeat:no-repeat;background-size:cover;background-position:50% 72%;background-attachment:scroll}
 .summit-photo::before,.summit-photo::after{content:"";position:absolute;inset:0}
 .summit-photo::before{background:var(--bg-navy);mix-blend-mode:color;opacity:.42}
-.summit-photo::after{background:linear-gradient(180deg,rgba(27,44,62,.45) 0%,rgba(27,44,62,.6) 38%,rgba(27,44,62,.9) 72%,var(--bg-navy) 100%)}
+.summit-photo::after{background:linear-gradient(180deg,rgba(27,44,62,0) 0,rgba(27,44,62,.6) calc(var(--heroClear) * .6),rgba(27,44,62,.95) calc(var(--heroClear) - .75rem),rgba(27,44,62,.97) 60%,var(--bg-navy) 100%)}
+@media (max-width:768px){.summit-photo{background-size:auto 130%;background-position:50% 70%}}
 .summit-title{font-size:var(--summitH1);max-width:16ch;text-wrap:balance}
 .summit-sub{font-size:var(--h2s);line-height:1.25;letter-spacing:-.01em;max-width:26ch;margin:var(--gh) 0 0}
 [data-hero="a"] .summit-photo{background-image:url("../assets/hero/hero-a-800.jpg");background-image:image-set(url("../assets/hero/hero-a-800.avif") type("image/avif"),url("../assets/hero/hero-a-800.webp") type("image/webp"),url("../assets/hero/hero-a-800.jpg") type("image/jpeg"))}
@@ -336,11 +337,10 @@ hr{border:0;border-top:1px solid var(--rule);margin:0;transition:border-color .2
 /* "More on this". One native disclosure per band, closed by default,
    readable with no script. The mark is two hairlines; open drops one. */
 .ss-more{max-width:720px;margin-top:var(--sgt);border-top:1px solid var(--rule)}
-.ss-more>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.4rem 0;cursor:pointer;color:var(--ink);transition:color .2s ease}
+.ss-more>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.4rem 0;cursor:pointer;color:var(--muted);transition:color .2s ease}
 .ss-more>summary::-webkit-details-marker{display:none}
-.ss-more>summary:hover{color:var(--link-hover)}
+.ss-more>summary:hover{color:var(--ink)}
 .ss-more>summary:focus-visible{outline:1px solid var(--warm-light);outline-offset:4px}
-.ss-more>summary .ssp-eyebrow{color:inherit}
 .ss-more-mark{position:relative;flex:none;width:14px;height:14px}
 .ss-more-mark::before,.ss-more-mark::after{content:"";position:absolute;background:currentColor}
 .ss-more-mark::before{left:0;right:0;top:6.5px;height:1px}
@@ -372,6 +372,8 @@ hr{border:0;border-top:1px solid var(--rule);margin:0;transition:border-color .2
 /* Busywork or judgment sorter, AI band. Without script it reads as the
    two column list; js/sorter.js adds the pool, taps, drags and keys. */
 .sorter{max-width:720px;margin-top:var(--sgt)}
+.sorter-hint{font-size:var(--body);color:var(--muted);margin:0 0 1.2rem}
+.sorter:not(.is-live) .sorter-hint{display:none}
 .sorter-pool{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;margin:0 0 1.6rem;padding:0}
 .sorter-pool:empty{display:none}
 .sorter-cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(.8rem,3vw,2rem)}

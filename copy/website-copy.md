@@ -32,7 +32,7 @@ Nav uses "AI Partner" for rhythm; the band H2 carries the full name. No Resource
 
 ### Band 1: The summit (#summit)
 
-Full bleed mountain image behind this band only, under a dark gradient; the photo fades to the plain ground before band 2.
+Full bleed mountain image behind this band only, under a dark gradient; the photo fades to the plain ground before band 2. Hero A, chosen by Zane 2026-10-27: Unsplash photo dCKZ75ZUEl0 by Austin, used under the Unsplash License, converted to black and white (source recorded per brand rules 2.1).
 
 **Eyebrow**
 

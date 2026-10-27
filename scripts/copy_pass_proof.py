@@ -4,10 +4,9 @@
 Usage: copy_pass_proof.py [--no-live]
 
 Nine cells against the website repo this file sits in, pointed at the
-one page, index.html, and its two hero previews, preview-hero-a.html and
-preview-hero-b.html. Cell 1 requires every text node of the three pages
-to sit verbatim in copy/website-copy.md and the three pages to carry the
-same text. Cells 2 to 8 hold the doc's metadata block and the sitewide
+one page, index.html, alone; the hero previews were removed when Zane
+chose hero A. Cell 1 requires every text node of the page to sit
+verbatim in copy/website-copy.md. Cells 2 to 8 hold the doc's metadata block and the sitewide
 rules from its Global build rules, and the sitemap stamp. Cell 9 fetches
 the live one page and requires it to be byte identical to the tree; it
 is red before a deploy by design and --no-live skips it for the pre
@@ -28,8 +27,8 @@ import urllib.request
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "1a9e23a"  # the Revision 5 copy commit this pass builds on
-PAGES = ["index.html", "preview-hero-a.html", "preview-hero-b.html"]
-LIVE_PAGES = ["index.html"]  # the previews are deleted before merge and never go live
+PAGES = ["index.html"]
+LIVE_PAGES = ["index.html"]
 SITE = "https://summitspringpartners.com/"
 LOG = os.path.expanduser("~/scripts/_state/proof_runs.log")
 
@@ -114,14 +113,11 @@ def in_doc(node):
 try:
     problems = []
     texts = {page: text_nodes(read(page)) for page in PAGES}
-    for page in PAGES:
-        if texts[page] != texts["index.html"]:
-            problems.append(f"{page}: text differs from index.html")
     for node in texts["index.html"]:
         if not in_doc(node):
             problems.append(f"index.html: not in the doc: {node[:60]}")
     cell("text integrity against the copy doc", not problems,
-         f"{len(texts['index.html'])} nodes on each page, {len(problems)} problem(s)" + (": " + "; ".join(problems) if problems else ""))
+         f"{len(texts['index.html'])} nodes on the page, {len(problems)} problem(s)" + (": " + "; ".join(problems) if problems else ""))
 except Exception as exc:
     cell("text integrity against the copy doc", False, f"could not run: {exc}")
 
@@ -134,7 +130,7 @@ for page in PAGES:
     if (h["title"], html.unescape(h["description"] or ""), html.unescape(h["og:description"] or "")) != \
             (want_meta.get("Title"), want_meta.get("Meta description"), want_meta.get("OG description")):
         bad.append(page)
-cell("metadata from the doc on three pages", not bad, f"pages with a head field off the doc: {bad or 'none'}")
+cell("metadata from the doc on the page", not bad, f"pages with a head field off the doc: {bad or 'none'}")
 
 # Cell 3: copy doc lines found in their pages, Revision 5a named.
 page_of = {"One page": "index.html", "404": "404.html"}
@@ -184,7 +180,7 @@ for page in PAGES:
     h = head_fields(read(page))
     if h["title"] != h["og:title"]:
         breaks.append(page)
-cell("og:title mirrors the title on three pages", not breaks, f"mirror breaks: {breaks or 'none'}")
+cell("og:title mirrors the title on the page", not breaks, f"mirror breaks: {breaks or 'none'}")
 
 # Cell 5: one CTA per page, in the last band only; Return home on 404.
 counts = {page: read(page).count("Start a Conversation") for page in PAGES}

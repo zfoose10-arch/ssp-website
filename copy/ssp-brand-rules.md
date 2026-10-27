@@ -99,3 +99,5 @@ Restraint is the entire point. When a decision is close, choose the quieter opti
 ## Amendment, Version 2.1, 2026-10-27, ruled by Zane
 
 Three changes for the one page site, nothing else moves. One photograph is allowed on the site, the summit band's hero, the single exception to "no stock photography"; its source and license are recorded in the copy doc before go live. The scrim over that photograph, a vertical fade from transparent to the band's ground so the type reads, is the single exception to "no gradients"; it is legibility, not decoration. A seventh color, `#0E161F`, deep ground, is added for one job only: the alternate band ground on the one page, so bands can alternate with `#1B2C3E`; never text, never structure, never on a printed document. Eyebrows stay `#908472`. The italic line stays `#CDC1B3`.
+
+Photo source: the summit hero is Unsplash photo dCKZ75ZUEl0 by Austin, used under the Unsplash License, converted to black and white; the one photograph on the site.

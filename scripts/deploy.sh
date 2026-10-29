@@ -20,6 +20,12 @@ EXCLUDES=(
   --exclude='/.gitignore'
   --exclude='/.claude/'
   --exclude='/DEPLOY.md'
+  --exclude='/shots/'
+  --exclude='/website-lap2-report-2026-10-27.md'
+  --exclude='/AGENTS.md'
+  --exclude='/CLAUDE.md'
+  --exclude='/decisions/'
+  --exclude='/assets/hero/hero-a-peaks-bw.jpg'
   --exclude='README*'
   --exclude='.DS_Store'
 )

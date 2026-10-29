@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""copy_pass_proof: the one page of Revision 5 and 5a, read against the copy doc.
+"""copy_pass_proof: the one page of Revision 6, read against the copy doc.
 
 Usage: copy_pass_proof.py [--no-live]
 
@@ -7,7 +7,7 @@ Nine cells against the website repo this file sits in, pointed at the
 one page, index.html, alone; the hero previews were removed when Zane
 chose hero A. Cell 1 requires every text node of the page to sit
 verbatim in copy/website-copy.md. Cells 2 to 8 hold the doc's metadata block and the sitewide
-rules from its Global build rules, and the sitemap stamp. Cell 9 fetches
+rules from its Global build rules, and the sitemap stamp, the deploy date. Cell 9 fetches
 the live one page and requires it to be byte identical to the tree; it
 is red before a deploy by design and --no-live skips it for the pre
 deploy run.
@@ -30,6 +30,7 @@ BASE = "1a9e23a"  # the Revision 5 copy commit this pass builds on
 PAGES = ["index.html"]
 LIVE_PAGES = ["index.html"]
 SITE = "https://summitspringpartners.com/"
+DEPLOY = "2026-10-29"  # the day Revision 6 went live, stamped in sitemap.xml
 LOG = os.path.expanduser("~/scripts/_state/proof_runs.log")
 
 results = []
@@ -132,7 +133,7 @@ for page in PAGES:
         bad.append(page)
 cell("metadata from the doc on the page", not bad, f"pages with a head field off the doc: {bad or 'none'}")
 
-# Cell 3: copy doc lines found in their pages, Revision 5a named.
+# Cell 3: copy doc lines found in their pages, Revision 6 named.
 page_of = {"One page": "index.html", "404": "404.html"}
 missing = []
 checked = 0
@@ -170,9 +171,9 @@ for sec in re.split(r"^## Page: ", doc, flags=re.M)[1:]:
             ok = f'og:description" content="{html.escape(v, quote=False)}"' in raw or f'og:description" content="{v}"' in raw
         if not ok:
             missing.append(f"[{key}] metadata {k}")
-rev = "Revision 5a, 2026-10-27" in doc.split("\n---", 1)[0]
-cell("copy doc Revision 5a matches the page", not missing and rev,
-     f"{checked} lines checked, {len(missing)} missing, Revision 5a named {rev}" + (": " + "; ".join(missing) if missing else ""))
+rev = "Revision 6, 2026-10-27" in doc.split("\n---", 1)[0]
+cell("copy doc Revision 6 matches the page", not missing and rev,
+     f"{checked} lines checked, {len(missing)} missing, Revision 6 named {rev}" + (": " + "; ".join(missing) if missing else ""))
 
 # Cell 4: og:title mirrors the title tag.
 breaks = []
@@ -195,9 +196,9 @@ boz_404 = len(re.findall(r"Bozeman", read("404.html")))
 cell("Bozeman in five positions per page only", all(c == 5 for c in boz.values()) and boz_404 == 0,
      ", ".join(f"{p} {c}" for p, c in boz.items()) + f", 404 {boz_404}")
 
-# Cell 7: sitemap lists the one page.
+# Cell 7: sitemap lists the one page, stamped the deploy date.
 sm = read("sitemap.xml")
-want = {"https://summitspringpartners.com/": "2026-10-27"}
+want = {SITE: DEPLOY}
 got = dict(re.findall(r"<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", sm))
 cell("sitemap lists the one page", got == want, f"{len(got)} url(s), one page stamped {got.get(SITE)}")
 

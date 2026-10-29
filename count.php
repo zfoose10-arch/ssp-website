@@ -112,7 +112,8 @@ if (PHP_SAPI === 'cli') return;
 http_response_code(204);
 header('Cache-Control: no-store');
 
-$pages = ['/', '/about.html', '/approach.html', '/coaching.html', '/ai-partner.html', '/404.html'];
+$pages = ['/', '/about.html', '/approach.html', '/coaching.html', '/ai-partner.html', '/404.html',
+          'summit', 'consulting', 'ai-partner', 'coaching', 'practice', 'about', 'contact'];
 $p  = $_GET['p'] ?? '';
 $ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
 $ip = $_SERVER['REMOTE_ADDR'] ?? '';

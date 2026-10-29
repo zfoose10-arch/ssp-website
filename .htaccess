@@ -1,2 +1,10 @@
 ErrorDocument 404 /404.html
-Redirect 301 /resources.html /ai-partner.html
+Redirect 301 /resources.html /#ai-partner
+
+# Revision 5: the five pages became one page of seven bands. Every link
+# published before it lands on its band, with and without .html.
+RedirectMatch 301 ^/approach(\.html)?$ /#consulting
+RedirectMatch 301 ^/ai-partner(\.html)?$ /#ai-partner
+RedirectMatch 301 ^/coaching(\.html)?$ /#coaching
+RedirectMatch 301 ^/about(\.html)?$ /#about
+RedirectMatch 301 ^/contact(\.html)?$ /#contact
